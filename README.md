@@ -2,9 +2,13 @@
 
 If you're new to dev containers in VS Code then have a look at this [tutorial](https://code.visualstudio.com/docs/remote/containers-tutorial) to set up all requirements for this repository.
 
-## How I use this repository
+## How to use this repository
 
-[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+Documentation from GitHub: [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+
+## Dependencies
+
+__pip3__ and __apt-get__ is executed in the [Dockerfile](./.devcontainer/Dockerfile) and environment variables such as __STARKNET_NETWORK__ and __STARKNET_WALLET__ is defined in the [devcontainer.json](./.devcontainer/devcontainer.json) file.
 
 ## Compile
 
