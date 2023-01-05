@@ -1,0 +1,2 @@
+# Ignore compiler generated artifacts
+comp/*.json
