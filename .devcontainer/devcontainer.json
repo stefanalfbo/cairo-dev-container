@@ -56,5 +56,7 @@
     "containerEnv": {
         "STARKNET_NETWORK": "alpha-goerli",
         "STARKNET_WALLET": "starkware.starknet.wallets.open_zeppelin.OpenZeppelinAccount"
-    }
+    },
+    // Add protostar, 0.9.0 introduced a dependency on GLIBC_2.5 which the debian distro do not have yet, therefore v 0.8.1
+    "postCreateCommand": "curl -L https://raw.githubusercontent.com/software-mansion/protostar/master/install.sh | /bin/bash -s -- -v 0.8.1"
 }
